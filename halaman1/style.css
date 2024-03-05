@@ -63,6 +63,9 @@ body{
 
 /* handphone */
 @media (max-width:576px) {
+.teks h2{
+    margin-right:255px ;
+}
 .teks img{
     width: 40%;
 }
