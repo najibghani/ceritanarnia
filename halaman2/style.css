@@ -1,0 +1,103 @@
+body{
+    background-image: url(../foto/batuajaib.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.judul {
+    font-family: judul;
+}
+
+.menu ul li{
+    font-family: menu;
+    margin-left: 50px;
+    font-size: 19px;
+}
+
+.teks2{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.teks2 h2{
+    font-size: 50px;
+    font-family: teks2;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    color: rgba(117, 1, 1, 0.837);
+}
+
+.teks2 p{
+    margin-bottom: 30px;
+    width: 75%;
+    margin-left: 25px;
+}
+
+.teks2 img{
+    width: 40%;
+    margin-top: 58px;
+    margin-right: 20px;
+    padding-left: 20px ;
+}
+.teks2 img:hover{
+    width: 48%;
+    transition:5s ease;
+}
+
+/* Media query */
+
+/* table */
+@media (max-width:991px) {
+    .teks2 h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .teks2 img{
+        width: 40%;
+        align-items: center;
+        display: block;
+        margin: auto;
+    }
+    .teks2 img:hover{
+        width: 50%;
+        transition:5s ease;
+    }
+    
+    .teks2 p{
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    }
+    
+    /* handphone */
+    @media (max-width:576px) {
+    .teks2 h2{
+        text-align: center;
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+        
+    .teks2 p{
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .teks2 img {
+        width: 50%;
+    }
+    
+    .teks2 img:hover{
+        width: 60%;
+        transition:5s ease;
+    }
+    }

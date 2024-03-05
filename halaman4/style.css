@@ -1,0 +1,128 @@
+body{
+    background-image: url(../foto/kursiraja.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-nav{
+    margin-bottom: 10px;
+} 
+
+.home{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.nav-item {
+    font-family: menu;
+    padding: 5px 0;
+    margin-left: 0.8rem;
+    font-size: 17px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 1000;
+}
+
+.text4{
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.text4 p{
+    width: 78%;
+    margin-bottom: 20px;
+}
+
+.text4 h2{
+    font-family: teks4;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: rgba(137, 3, 3, 0.837);
+}
+
+.text4 img{
+    width: 40%;
+    margin-right: 20px;
+    padding-left: 20px ;
+}
+
+.text4 img:hover{
+    width: 50%;
+    transition:5s ease;
+}
+
+/* Media query */
+
+/* tablet */
+@media (max-width:991px) {
+    .navbar{
+        width: 110px;
+    }
+
+    .home{
+        font-size: 20px;
+    }
+
+    .nav-item{
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+
+    .text4{
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+
+    .text4 h2{
+        font-size: 45px;
+    }
+    .text4 p{
+        width: 80%;
+    }
+
+    .text4 img{
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    .text4 img:hover{
+        width: 70%;
+        transition:5s ease;
+    }
+}
+
+/* handphone */
+@media (max-width:576px) {
+    .navbar{
+        width: 80px;
+    }
+    .nav-item{
+        font-size: 10px;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+    .home{
+        font-size: 12px;
+    }
+    .text4{
+        margin-left: 95px;
+    }
+    .text4 h2{
+        font-size: 36px;
+    }
+    .text4 img{
+        width: 60%;
+    }
+    .text4 img:hover{
+        width: 75%;
+        transition:5s ease;
+    }
+}

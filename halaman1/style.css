@@ -1,0 +1,73 @@
+body{
+    background-image: url(../foto/istanaes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.judul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.menu ul li{
+    font-family: menu;
+    margin-left: 50px;
+    font-size: 19px;
+}
+
+.teks{
+    margin-top: 150px;
+}
+
+
+.teks h2{
+    font-family: teksh2;
+    color: rgba(13, 21, 15, 0.837);
+    margin-bottom: 50px;
+    margin-left: 500px;
+    width: 500px;
+    padding: 5px;
+    border: 1px solid aqua;
+    background-color: aquamarine;
+}
+
+.teks p{
+    display: inline-block;
+    width: 50%;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.teks img{
+    width: 20%;
+}
+.teks img:hover{
+    width: 25%;
+    transition:5s ease;
+}
+
+/* Media query */
+/* tablet */
+@media (max-width:991px){
+    .teks img{
+        width: 30%;
+    }
+    .teks img:hover{
+        width: 35%;
+        transition:5s ease;
+    }
+}
+
+/* handphone */
+@media (max-width:576px) {
+.teks img{
+    width: 40%;
+}
+.teks img:hover{
+    width: 45%;
+    transition:5s ease;
+}
+}
